@@ -12,7 +12,7 @@ Then forgot your password link should be displayed
 
 Scenario: Login with correct credentials
 Given user is on login page
-When user enters username "azgharsalar@gmail.com
+When user enters username "azgharsalar@gmail.com"
 And user enters password "salar@123" 
 And user clicks on login button
 Then user gets title of the home page
